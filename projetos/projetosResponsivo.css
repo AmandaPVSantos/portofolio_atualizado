@@ -9,12 +9,12 @@
     }
 
     .modal-title {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     .card {
-        margin: 10px; 
-        width: 90%;
-        max-width: none;
+        margin: 10px;
+        width: calc(100% - 20px); /* Garante que o card ocupe 100% menos a margem */
+        max-width: 100%; /* Limita o card a não ultrapassar a tela */
     }
 }
