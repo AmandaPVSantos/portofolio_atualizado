@@ -2,17 +2,17 @@
 @media (max-width: 768px) {
     .main-contato {
         margin: 200px 20px 130px 20px;
-        flex-direction: column; /* Adiciona esta linha para melhor adaptação em telas menores */
+        flex-direction: column; 
     }
 
     .titulo-contato h1 {
-        font-size: 3em; /* Ajuste o tamanho da fonte */
+        font-size: 3em; 
         text-align: center;
     }
 
     .paragrafos-contato p,
     .tipos-de-contato {
-        font-size: 1.2em; /* Ajuste o tamanho da fonte */
+        font-size: 1.2em; 
     }
 
     .conteudo-principal-contato {
@@ -20,16 +20,10 @@
         padding: 5%;
     }
 
-    .eMail-contato, .numero-contato {
-        /* margin: 5%; */
-        height: auto; /* Permite que o elemento se ajuste ao conteúdo */
-        padding: 10px; /* Adiciona padding para melhorar o layout */
-    }
-
     .imagem-div-contato img {
         margin: 100px 90px 20px 80px;
-        height: auto; /* Ajusta a altura automaticamente para manter a proporção */
-        width: 80%; /* Ajusta a largura conforme a tela */
+        height: auto;
+        width: 80%;
         border-radius: 30%;
     }
 }
@@ -40,29 +34,18 @@
     }
 
     .titulo-contato h1 {
-        font-size: 2em; /* Ajuste o tamanho da fonte */
+        font-size: 2em;
         text-align: center;
     }
 
     .paragrafos-contato p,
     .tipos-de-contato {
-        font-size: 0.9em; /* Ajuste o tamanho da fonte */
+        font-size: 0.9em;
     }
 
     .conteudo-principal-contato {
         margin: 3%;
         padding: 3%;
-    }
-
-    .eMail-contato, .numero-contato {
-        margin: 3%;
-        height: auto;
-        padding: 5px;
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 0.8em; /* Ajusta o tamanho da fonte */
-        padding: 0;
     }
 
     .imagem-div-contato img {
@@ -76,28 +59,19 @@
 /* Media Query para telas de 360px */
 @media (max-width: 360px) {
     .titulo-contato h1 {
-        font-size: 30px; /* Reduzido para telas menores */
+        font-size: 30px;
     }
 
     .paragrafos-contato p {
-        font-size: 18px; /* Reduzido para telas menores */
+        font-size: 18px;
     }
 
     .tipos-de-contato {
-        font-size: 18px; /* Reduzido para telas menores */
+        font-size: 18px;
     }
 
     .conteudo-principal-contato {
-        margin: 10px; /* Reduzido para telas menores */
-    }
-
-    .eMail-contato, .numero-contato {
-        height: 35px; /* Reduzido para telas menores */
-        margin: 5px; /* Reduzido para telas menores */
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 14px; /* Reduzido para telas menores */
+        margin: 10px;
     }
 
     .imagem-div-contato img {
@@ -109,33 +83,24 @@
 /* Media Query para telas de 390px */
 @media (max-width: 390px) {
     .titulo-contato h1 {
-        font-size: 35px; /* Ajustado para telas de 390px */
+        font-size: 35px;
     }
 
     .paragrafos-contato p {
-        font-size: 20px; /* Ajustado para telas de 390px */
+        font-size: 20px;
     }
 
     .tipos-de-contato {
-        font-size: 20px; /* Ajustado para telas de 390px */
+        font-size: 20px;
     }
 
     .conteudo-principal-contato {
-        margin: 15px; /* Ajustado para telas de 390px */
-    }
-
-    .eMail-contato, .numero-contato {
-        height: 38px; /* Ajustado para telas de 390px */
-        margin: 8px; /* Ajustado para telas de 390px */
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 15px; /* Ajustado para telas de 390px */
+        margin: 15px;
     }
 
     .imagem-div-contato img {
-        margin-top: 15px; /* Ajustado para telas de 390px */
-        margin-right: 12px; /* Ajustado para telas de 390px */
+        margin-top: 15px;
+        margin-right: 12px;
     }
 }
 
@@ -148,28 +113,19 @@
     }
 
     .titulo-contato h1 {
-        font-size: 33px; /* Ajustado para telas de 375px */
+        font-size: 33px;
     }
 
     .paragrafos-contato p {
-        font-size: 19px; /* Ajustado para telas de 375px */
+        font-size: 19px;
     }
 
     .tipos-de-contato {
-        font-size: 19px; /* Ajustado para telas de 375px */
+        font-size: 19px;
     }
 
     .conteudo-principal-contato {
-        margin: 15px; /* Ajustado para telas de 375px */
-    }
-
-    .eMail-contato, .numero-contato {
-        height: 37px; /* Ajustado para telas de 375px */
-        margin: 7px; /* Ajustado para telas de 375px */
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 14px; /* Ajustado para telas de 375px */
+        margin: 15px;
     }
 
     .imagem-div-contato img {
@@ -188,28 +144,19 @@
     }
 
     .titulo-contato h1 {
-        font-size: 40px; /* Ajustado para telas de 414px */
+        font-size: 40px;
     }
 
     .paragrafos-contato p {
-        font-size: 22px; /* Ajustado para telas de 414px */
+        font-size: 22px;
     }
 
     .tipos-de-contato {
-        font-size: 22px; /* Ajustado para telas de 414px */
+        font-size: 22px;
     }
 
     .conteudo-principal-contato {
-        margin: 18px; /* Ajustado para telas de 414px */
-    }
-
-    .eMail-contato, .numero-contato {
-        height: 39px; /* Ajustado para telas de 414px */
-        margin: 9px; /* Ajustado para telas de 414px */
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 16px; /* Ajustado para telas de 414px */
+        margin: 18px;
     }
 
     .imagem-div-contato img {
@@ -226,35 +173,26 @@
     }
 
     .titulo-contato h1 {
-        font-size: 25px; /* Reduzido para telas muito pequenas */
+        font-size: 25px;
     }
 
     .paragrafos-contato p {
-        font-size: 16px; /* Reduzido para telas muito pequenas */
+        font-size: 16px;
     }
 
     .tipos-de-contato {
-        font-size: 16px; /* Reduzido para telas muito pequenas */
+        font-size: 16px;
     }
 
     .conteudo-principal-contato {
-        margin: 10px; /* Reduzido para telas muito pequenas */
-    }
-
-    .eMail-contato, .numero-contato {
-        height: 35px; /* Reduzido para telas muito pequenas */
-        margin: 5px; /* Reduzido para telas muito pequenas */
-    }
-
-    .eMail-contato p, .numero-contato p {
-        font-size: 14px; /* Reduzido para telas muito pequenas */
+        margin: 10px;
     }
 
     .imagem-div-contato img {
-        height: auto; /* Mantém a proporção da imagem */
-        width: 100%; /* Adapta a imagem ao contêiner */
-        margin-top: 10px; /* Ajustado para telas muito pequenas */
-        margin-right: 10px; /* Ajustado para telas muito pequenas */
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 10px;
         border-radius: 99px;
     }
 }
