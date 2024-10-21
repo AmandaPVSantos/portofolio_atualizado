@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonte para titulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Estlo-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/projetos/projetos.css">
+    <link rel="stylesheet" href="/projetos/projetosResponsivo.css">
+
+    <!--Icon-->
+    <link rel="icon"  type="image/x-icon">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <link rel="shortcut icon" href="/assests/Cute avatar _ Anime.jfif" type="image/x-icon">
+
+    <!--Tietle-->
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top"> <!--bg-body-tertiary-->
+          <div class="container-fluid"  id="navbar">
+            <div class="logo-floral">
+              <a class="navbar-brand" href="#"><img src="/assests/Cute avatar _ Anime.jfif" alt="avatar"></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              <ul class="navbar-nav w-100 justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" onclick="navigateToPage('/index.html')">Início</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigateToPage('/sobre/sobre.html')">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigateToPage('/projetos/projetos.html')">Pojetos</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="navigateToPage('/contatos/contato.html')">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banners banner-1">
+        <div class="div-principal">
+          <div class="div-secundaria">
+            <div class="titulo-projetos">
+              <h2 class="section-h2 p-5 fw-bold mw-75 text-center">
+                Projetos
+              </h2>
+            </div>
+            
+            <div class="projetos-container-principal">
+              <div class="row mx-0 justify-content-center"> <!-- Centraliza os cards -->
+                <!--CARD 1-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-1">
+                        <img src="/assests/landing-page-cafeteria.jpg" class="card-img-top" alt="Imagem do projeto Cafeteria Serenatto">
+                        <div class="card-body">
+                            <h3 class="card-text text-center fw-bold">
+                                Cafeteria Serenatto
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--CARD 2-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-2">
+                        <img src="/assests/projeto-clone-spotify.jpg" class="card-img-top" alt="Imagem do projeto Clone do Spotify">
+                        <div class="card-body">
+                            <h3 class="card-text text-center fw-bold">
+                                Clone do Spotify
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+        
+                <!--CARD 3-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-3">
+                        <img src="/assests/projeto-notes.jpg" class="card-img-top" alt="Imagem do projeto Voice Notes">
+                        <div class="card-body">
+                            <h3 class="card-text text-center fw-bold">
+                              Voice Notes
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 4-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-4">
+                      <img src="/assests/previsao_estoque_img.jpg" class="card-img-top" alt="Imagem do projeto Clone do Spotify">
+                      <div class="card-body">
+                          <h3 class="card-text text-center fw-bold">
+                              Previsão de Estoque
+                          </h3>
+                      </div>
+                  </div>
+                </div>
+
+                <!--CARD 5-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-5">
+                      <img src="/assests/cadastro_listagem_produtos_img.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                          <h3 class="card-text text-center fw-bold">
+                              Cadastro e Listagem de Produtos
+                          </h3>
+                      </div>
+                  </div>
+                </div>
+
+                <!--CARD 6-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card border-0 mx-auto btn" style="width: 100%; max-width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-6">
+                      <img src="/assests/verificador_idade_img.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                          <h3 class="card-text text-center fw-bold">
+                              Verificador de Idade
+                          </h3>
+                      </div>
+                  </div>
+                </div>
+
+                <!--CARD 7-->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card border-0 mx-auto btn" style="width: 25rem;" data-bs-toggle="modal" data-bs-target="#modal-7">
+                      <img src="/assests/livraria_ficticia_mundo_dos_livros_img.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                          <h3 class="card-text text-center fw-bold">
+                            Livraria: Mundo dos Livros
+                          </h3>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cafeteria Serenatto
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/landing-page-cafeteria.jpg" class="w-100" alt="Imagem do projeto Cafeteria Serenatto">
+                <div class="container_texto_modal">
+                  <div>
+                    <p>
+                      Este projeto foi desenvolvido durante um curso de Bootstrap na Alura.
+                    </p>
+                  </div>
+  
+                  <div>
+                    <p>
+                      Tecnologias utilizadas: HTML, CSS, JavaScript, Bootstrap.
+                    </p>
+                  </div>
+  
+                  <div>
+                    <p>
+                      Para visualizar o site:
+                      <a href="https://landing-page-de-cafeteria.vercel.app/" target="_blank">Clique aqui</a>
+                    </p>
+                  </div>
+                </div>
+          </div>
+            <div class="modal-footer mx-auto">
+              <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal-2" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Clone do Spotify</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/projeto-clone-spotify.jpg" class="w-100" alt="imagem projeto clone Spotify">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    Esse projeto foi desenvolvimento durante uma imersão na Alura.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Trata-se de um clone do Spotify que possui o vísual similar do site original.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Foi um excelente experiência executar esse projeto.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: HTML, CSS, JavaScript.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Para visualizar:
+                    <a href="https://amandapvsantos.github.io/Imers-o-front-end--main/" target="_blank">Clique aqui</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal-3" tabindex="-3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Projeto Voice Notes</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/projeto-notes.jpg" class="w-100" alt="Imagem do projeto Voice Notes">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    Esse projeto foi desenvolvido durante a imersão com a Rocektseat.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Esse projeto trata-se de um bloco de notas, onde é possível escrever tanto de forma convencional por texto, quanto por áudio.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: React, TypeScript, Tailwind e a SpeechRecognition API.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal-4" tabindex="-4" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Previsão de Estoque
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/previsao_estoque_img.jpg" class="w-100" alt="Imagem do projeto Voice Notes">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    A aplicação permite ao usuário inserir informações sobre as vendas anteriores 
+                    e o estoque atual para calcular uma previsão simples do estoque futuro.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    O objetivo é simular uma interface interativa que poderia ser integrada em um sistema mais complexo de previsão de estoque.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: HTML, CSS e JavaScript.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Para visualizar:
+                    <a href="https://previsao-de-estoque-simples.vercel.app/" target="_blank">Clique aqui</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal-5" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cadastro e Listagem de Produtos
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/cadastro_listagem_produtos_img.jpg" class="w-100" alt="Imagem do projeto Voice Notes">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    Este projeto foi desenvolvido com o objetivo de criar uma aplicação web prática e eficiente para o cadastro e a exibição de produtos. O sistema permite a inserção de novos produtos com informações como nome, valor e disponibilidade, e organiza a listagem de maneira automática, ordenada por valor. 
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    A interface intuitiva e responsiva foi construída utilizando HTML, CSS e Bootstrap, garantindo uma experiência de usuário fluida em diferentes dispositivos. Além disso, o JavaScript foi utilizado para manipular dinamicamente a exibição dos dados, oferecendo uma interação ágil e moderna.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: HTML, CSS, Bootstrap e JavaScript.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Para visualizar:
+                    <a href="https://cadastro-e-listagem-de-produtos-alpha.vercel.app/" target="_blank">Clique aqui</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal-6" tabindex="-6" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Verificador de Idade
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/verificador_idade_img.jpg" class="w-100" alt="Imagem do projeto Voice Notes">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    Este projeto foi desenvolvido com o objetivo de calcular a idade de forma simples e direta. 
+                    Ao inserir o ano de nascimento em um campo numérico, o sistema processa e exibe a idade com base no ano fornecido.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Embora seja um projeto básico, ele é uma ótima ferramenta para reforçar conceitos essenciais de manipulação de 
+                    dados e interação com o usuário, além de manter a prática ativa.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    A simplicidade do projeto o torna uma excelente base para futuras expansões e aprimoramentos.
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: HTML, CSS e JavaScript.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Para visualizar:
+                    <a href="https://verificador-de-idade-six.vercel.app/" target="_blank">Clique aqui</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="modal fade" id="modal-7" tabindex="-7" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Livraria: Mundo dos Livros
+            </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assests/livraria_ficticia_mundo_dos_livros_img.jpg" class="w-100" alt="Imagem do projeto Voice Notes">
+              <div class="container_texto_modal">
+                <div>
+                  <p>
+                    Este projeto está em fase de desenvolvimento e consiste na criação de um site para uma livraria fictícia chamada 
+                    "Mundo dos Livros." A proposta é criar uma plataforma intuitiva e atraente onde os usuários possam explorar diferentes 
+                    categorias de livros, obter informações detalhadas sobre os títulos disponíveis e desfrutar de uma experiência de navegação fluida. 
+                    O site está sendo desenvolvido com foco em usabilidade e design moderno, garantindo uma interface agradável e funcional.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Aguarde..está em construção...
+                  </p>
+                </div>
+                
+                <div>
+                  <p>
+                    Foi utilizado as seguintes tecnologias: HTML, CSS, Boostrap e JavaScript.
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Para visualizar:
+                    <a href="#" target="_blank">Indisponível no momento!</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0" id="botao-padrao" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <footer class="text-center">
+      <section>
+          <div class="footer p-3 d-flex justify-content-center">
+              <div class="icone-linkedin">
+                <a href="https://www.linkedin.com/in/amanda-veiga-a9927a303"
+                    target="_blank" class="w-2 p3 mb-3">
+                      <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+              
+              <div class="icone-github">
+                <a href="https://github.com/AmandaPVSantos"
+                    target="_blank" class="w-2 p3 mb-3">
+                      <i class="bi bi-github"></i>
+                </a>
+              </div>
+          </div>
+  
+          <div class="footer-text p-3">
+            <p>
+              E-mail para contato: avsantos573@gmail.com
+            </p>
+            <p>
+               <i class="bi bi-c-circle"></i> 2024  Todos os direitos reservados | Desenvolvido por Amanda.
+            </p>
+          </div>
+      </section>
+    </footer>
+
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

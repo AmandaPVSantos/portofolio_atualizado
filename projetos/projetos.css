@@ -1,0 +1,69 @@
+.projetos-container-principal {
+    display: flex; /* Flexbox para os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a linha seguinte */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+    background-color: #F0F8FF;
+    transition: transform 0.3s, box-shadow 0.3s; /* Adiciona transição suave */
+    border-radius: 10px; /* Adiciona borda arredondada */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva o card ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao card */
+}
+
+.titulo-projetos h2 {
+    color: #000;
+    font-size: 70px;
+    font-family: "Great Vibes", cursive;
+    text-align: center; /* Centraliza o título */
+}
+
+.div-principal {
+    /* margin: 150px 20px; 
+    padding: 10px;
+    border-radius: 20px; */
+
+    margin: 150px 20px; /* Ajuste conforme necessário */
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Alinha os filhos em coluna */
+    align-items: center; /* Centraliza horizontalmente os filhos */
+}
+
+.card-text {
+    color: #000;
+    text-align: center; /* Centraliza o texto do card */
+}
+
+/* Estilo do modal */
+.container_texto_modal {
+    padding: 20px;
+}
+
+.modal-title {
+    color: #000;
+    font-size: 24px; /* Ajuste o tamanho do título do modal */
+}
+
+.modal-body p {
+    color: #000;
+    line-height: 1.5; /* Melhora a legibilidade */
+}
+
+.conteudo-projeto {
+    margin: 30px;
+}
+
+#botao-padrao {
+    background-color: #000;
+    color: #fff;
+}
+
+#botao-padrao:hover {
+    background-color: rgba(238, 38, 38, 0.5);
+}

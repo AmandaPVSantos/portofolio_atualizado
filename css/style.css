@@ -1,0 +1,113 @@
+body {
+    background-color: #F0F8FF;
+    font-family: "Merriweather", serif;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #BFD3C1;
+}
+
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s; /* Define a transição suave da cor */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F7D7D0;
+}
+
+
+.navbar-brand img{
+    height: 50px;
+    margin: 0px 16px 16px 30px;
+}
+
+.logo-floral img{
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.container-principal-home {
+    /* margin-top: 150px;
+    margin-bottom: 90px; */
+    border-radius: 50%;
+    margin: 30px;
+}
+
+/*paragrafos*/
+p {
+    color: #fff;
+}
+
+.banners-h2 {
+    font-size: 60px;
+}
+
+.banners-titulo, .banners-titulo-principal{
+    background-color: rgba(238, 38, 38, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.banners-titulo-principal {
+    margin-top: 150px;
+}
+
+.banners-titulo h2 {
+    color: #fff;
+    
+}
+
+.banners-h2{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;
+}
+
+.banners-p {
+    font-family: "Merriweather", serif;
+    color: #fff;
+}
+
+/*footer*/
+.footer {
+    background-color: #BFD3C1;
+}
+
+.footer-text{
+    background-color: #BFD3C1;
+}
+
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    color: #fff;
+    padding: 10px;
+    size: 50px;
+}
+
+.icone-linkedin {
+    background-color: rgba(238, 38, 38, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.icone-github {
+    background-color: rgba(238, 38, 38, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+i.bi-linkedin {
+    font-size: 30px; /* ou qualquer outro valor */
+}
+
+i.bi-github {
+    font-size: 30px; /* ou qualquer outro valor */
+}
