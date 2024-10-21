@@ -1,38 +1,41 @@
 .projetos-container-principal {
-    display: flex; /* Flexbox para os cards */
-    flex-wrap: wrap; /* Permite que os cards quebrem para a linha seguinte */
-    justify-content: center; /* Centraliza os cards horizontalmente */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; /* Garante que o container não exceda a largura da viewport */
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    padding: 0 10px; /* Pequeno padding para evitar vazamento nas bordas */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
 }
 
 .card {
     background-color: #F0F8FF;
-    transition: transform 0.3s, box-shadow 0.3s; /* Adiciona transição suave */
-    border-radius: 10px; /* Adiciona borda arredondada */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 .titulo-projetos h2 {
     color: #000;
     font-size: 70px;
     font-family: "Great Vibes", cursive;
-    text-align: center; /* Centraliza o título */
+    text-align: center;
 }
 
 .div-principal {
-    /* margin: 150px 20px; 
-    padding: 10px;
-    border-radius: 20px; */
-
-    margin: 150px 20px; /* Ajuste conforme necessário */
+    margin: 150px 20px;
     padding: 10px;
     border-radius: 20px;
     display: flex;
-    flex-direction: column; /* Alinha os filhos em coluna */
-    align-items: center; /* Centraliza horizontalmente os filhos */
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ajuste da largura para garantir que ocupe toda a tela */
+    box-sizing: border-box;
 }
 
 .card-text {
     color: #000;
-    text-align: center; /* Centraliza o texto do card */
+    text-align: center;
 }
 
 /* Estilo do modal */
@@ -42,12 +45,12 @@
 
 .modal-title {
     color: #000;
-    font-size: 24px; /* Ajuste o tamanho do título do modal */
+    font-size: 24px;
 }
 
 .modal-body p {
     color: #000;
-    line-height: 1.5; /* Melhora a legibilidade */
+    line-height: 1.5;
 }
 
 .conteudo-projeto {
