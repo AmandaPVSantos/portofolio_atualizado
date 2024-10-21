@@ -1,41 +1,25 @@
-.projetos-container-principal {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%; /* Garante que o container não exceda a largura da viewport */
-    overflow-x: hidden; /* Evita rolagem horizontal */
-    padding: 0 10px; /* Pequeno padding para evitar vazamento nas bordas */
-    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
+/* Container main cards*/
+.container_main_cards {
+    margin: 190px 30px 90px 30px;
 }
 
-.card {
-    background-color: #F0F8FF;
-    transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 10px;
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
+/* Titulo - Projetos*/
 .titulo-projetos h2 {
     color: #000;
-    font-size: 70px;
+    font-size: 100px;
     font-family: "Great Vibes", cursive;
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.div-principal {
-    margin: 150px 20px;
-    padding: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; /* Ajuste da largura para garantir que ocupe toda a tela */
-    box-sizing: border-box;
-}
-
+/* estilo dos cards*/
 .card-text {
     color: #000;
     text-align: center;
+}
+
+.card:hover {
+    background-color: #BFD3C1;
 }
 
 /* Estilo do modal */
@@ -58,7 +42,7 @@
 }
 
 #botao-padrao {
-    background-color: #000;
+    background-color: #BFD3C1;
     color: #fff;
 }
 
