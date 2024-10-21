@@ -17,9 +17,15 @@
 }
 
 .tipos-de-contato {
-    font-family: "Merriweather", serif;
+    font-family: "Dancing Script", cursive;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.tipos-de-contato p {
+    font-family: "Dancing Script", cursive;
+    text-decoration: underline red;
 }
 
 .section-contato {
@@ -38,7 +44,7 @@
     text-align: center;
 }
 
-.eMail-contato, .numero-contato {
+.eMail-contato{
     background-color: rgba(238, 38, 38, 0.5);
     margin: 20px;
     border-radius: 10px;
@@ -48,7 +54,11 @@
     cursor: pointer;
 }
 
-.eMail-contato p, .numero-contato p {
+.eMail-contato a i{
+    font-size: 30px;
+}
+
+.eMail-contato p{
     padding: 15px;
     font-size: 20px;
 }
