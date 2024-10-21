@@ -15,6 +15,6 @@
     .card {
         margin: 10px; 
         width: 90%;
-        max-width: none; /* Remove a limitação de largura máxima */
+        max-width: none;
     }
 }
