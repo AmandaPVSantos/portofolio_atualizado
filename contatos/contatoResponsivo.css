@@ -1,4 +1,63 @@
 /* Responsividade */
+
+@media (max-width: 1800px) {
+    /* .main-contato {
+        margin: 200px 20px 130px 20px;
+        flex-direction: column; 
+    } */
+
+    .titulo-contato h1 {
+        font-size: 3em; 
+        text-align: center;
+    }
+
+    /* .paragrafos-contato p,
+    .tipos-de-contato {
+        font-size: 1.2em; 
+    } */
+
+    /* .conteudo-principal-contato {
+        margin: 5%;
+        padding: 5%;
+    } */
+
+    .imagem-div-contato img {
+        margin: 30px 40px 20px 80px;
+        height: auto;
+        width: 80%;
+        border-radius: 30%;
+    }
+}
+
+@media (max-width: 1280px) {
+    /* .main-contato {
+        margin: 200px 20px 130px 20px;
+        flex-direction: column; 
+    } */
+
+    .titulo-contato h1 {
+        font-size: 3em; 
+        text-align: center;
+    }
+
+    /* .paragrafos-contato p,
+    .tipos-de-contato {
+        font-size: 1.2em; 
+    } */
+
+    /* .conteudo-principal-contato {
+        margin: 5%;
+        padding: 5%;
+    } */
+
+    .imagem-div-contato img {
+        margin: 30px 40px 20px 80px;
+        height: auto;
+        width: 80%;
+        border-radius: 30%;
+    }
+}
+
 @media (max-width: 768px) {
     .main-contato {
         margin: 200px 20px 130px 20px;
@@ -189,10 +248,9 @@
     }
 
     .imagem-div-contato img {
-        height: auto;
-        width: 100%;
-        margin-top: 10px;
-        margin-right: 10px;
+        height: AUTO;
+        width: 86%;
+        margin-top: 50PX;
         border-radius: 99px;
     }
 }

@@ -111,3 +111,16 @@ i.bi-linkedin {
 i.bi-github {
     font-size: 30px; /* ou qualquer outro valor */
 }
+
+.footer {
+    background-color: #BFD3C1;
+    width: 100%;
+    padding: 20px 0;
+    position: relative; /* Para posicionar corretamente dentro do fluxo do documento */
+    bottom: 0; /* Garante que o footer fique sempre na parte inferior */
+}
+
+.footer-text {
+    background-color: #BFD3C1;
+    text-align: center; /* Centraliza o texto */
+}
